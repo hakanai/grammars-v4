@@ -1,0 +1,16 @@
+Shader "Examples/CommandExample"
+{
+    SubShader
+    {
+         // The rest of the code that defines the SubShader goes here.
+
+        Pass
+        {    
+             // Enable subtractive blending for this Pass
+             Blend SrcAlpha One
+             BlendOp RevSub
+            
+              // The rest of the code that defines the Pass goes here.
+        }
+    }
+}

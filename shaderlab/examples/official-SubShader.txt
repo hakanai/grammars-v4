@@ -1,0 +1,20 @@
+Shader "Examples/SinglePass"
+{
+    SubShader
+    {
+        Tags { "ExampleSubShaderTagKey" = "ExampleSubShaderTagValue" }
+        LOD 100
+
+         // ShaderLab commands that apply to the whole SubShader go here. 
+
+        Pass
+        {                
+              Name "ExamplePassName"
+              Tags { "ExamplePassTagKey" = "ExamplePassTagValue" }
+
+              // ShaderLab commands that apply to this Pass go here.
+
+              // HLSL code goes here.
+        }
+    }
+}

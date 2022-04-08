@@ -1,0 +1,12 @@
+Shader "Examples/ContainsNamedPass"
+{
+    SubShader
+    {
+        Pass
+        {    
+              Name "ExampleNamedPass"
+            
+              // The rest of the Pass contents go here.
+        }
+    }
+}

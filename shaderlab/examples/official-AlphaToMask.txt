@@ -1,0 +1,15 @@
+Shader "Examples/CommandExample"
+{
+    SubShader
+    {
+         // The rest of the code that defines the SubShader goes here.
+
+        Pass
+        {    
+              // Enable alpha-to-coverage mode for this Pass
+              AlphaToMask On
+            
+              // The rest of the code that defines the Pass goes here.
+        }
+    }
+}

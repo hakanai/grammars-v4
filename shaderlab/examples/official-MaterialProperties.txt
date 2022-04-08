@@ -1,0 +1,19 @@
+Shader "Examples/MaterialPropertyShaderLab"
+{
+    Properties
+    {
+        // Change this value in the Material Inspector to affect the value of the Offset command
+        _OffsetUnitScale ("Offset unit scale", Integer) = 1
+    }
+    SubShader
+    {
+        // The code that defines the rest of the SubShader goes here
+
+        Pass
+        {
+            Offset 0, [_OffsetUnitScale]
+
+           // The code that defines the rest of the Pass goes here
+        }
+    }
+}

@@ -1,0 +1,14 @@
+Shader "Examples/FogExample"
+{
+    SubShader
+    {
+         // The rest of the code that defines the SubShader goes here.
+
+        Pass
+        {    
+              Fog Off
+            
+              // The rest of the code that defines the Pass goes here.
+        }
+    }
+}

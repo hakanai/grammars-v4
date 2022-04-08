@@ -256,6 +256,7 @@
 				<module>scss</module>
 				<module>sexpression</module>
 				<module>sgf</module>
+                <module>shaderlab</module>
 				<module>sharc</module>
 				<module>sici</module>
 				<module>sickbay</module>

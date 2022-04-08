@@ -1,0 +1,12 @@
+Shader "example" {
+Category {
+    Blend One One
+    SubShader {
+        // ...
+    }
+    SubShader {
+        // ...
+    }
+    // ...
+}
+}

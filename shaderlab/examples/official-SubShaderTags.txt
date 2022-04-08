@@ -1,0 +1,8 @@
+Shader "ExampleShader" {
+    SubShader {
+        Tags { "RenderPipeline" = "UniversalRenderPipeline" }
+        Pass {
+            …
+        }
+    }
+}

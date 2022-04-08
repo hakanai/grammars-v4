@@ -1,0 +1,21 @@
+Shader "Examples/CommandExample"
+{
+    SubShader
+    {
+         // The rest of the code that defines the SubShader goes here.
+
+        Pass
+        {    
+              // Enable writing only to the RGB channels for this Pass, which disables writing to the alpha channel
+              ColorMask RGB
+
+              // The rest of the code that defines the Pass goes here.
+        }
+
+        // Another example from table on page
+        Pass
+        {
+            ColorMask RGB 2
+        }
+    }
+}

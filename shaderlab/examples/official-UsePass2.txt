@@ -1,0 +1,7 @@
+Shader "Examples/UsesNamedPass"
+{
+    SubShader
+    {
+        UsePass "Examples/ContainsNamedPass/EXAMPLENAMEDPASS"
+    }
+}

@@ -1,0 +1,22 @@
+Shader "Examples/ExampleLOD"
+{
+    SubShader
+    {
+        LOD 200
+
+        Pass
+        {                
+              // The rest of the code that defines the Pass goes here.
+        }
+    }
+
+    SubShader
+    {
+        LOD 100
+
+        Pass
+        {                
+              // The rest of the code that defines the Pass goes here.
+        }
+    }
+}

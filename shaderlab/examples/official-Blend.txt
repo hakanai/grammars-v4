@@ -1,0 +1,26 @@
+Shader "Examples/CommandExample"
+{
+    SubShader
+    {
+         // The rest of the code that defines the SubShader goes here.
+
+        Pass
+        {    
+              // Enable regular alpha blending for this Pass
+      Blend SrcAlpha OneMinusSrcAlpha
+            
+              // The rest of the code that defines the Pass goes here.
+        }
+
+        // Other examples from table on page
+        Pass
+        {
+            Blend Off
+            Blend 1 Off
+            Blend One Zero
+            Blend 1 One Zero
+            Blend One Zero, Zero One
+            Blend 1 One Zero, Zero One
+        }
+    }
+}

@@ -1,0 +1,17 @@
+Shader "Examples/UsesCustomEditor"
+{
+    // The Unity Editor uses the class ExampleCustomEditor to configure the Inspector for this shader asset
+    CustomEditor "ExampleShaderGUI"
+    CustomEditorForRenderPipeline "ExampleRenderPipelineShaderGUI" "ExampleRenderPipelineAsset"
+    CustomEditorForRenderPipeline "OtherExampleRenderPipelineShaderGUI" "OtherExampleRenderPipelineAsset"
+
+    SubShader
+    {
+        // Code that defines the SubShader goes here.
+
+        Pass
+        {                
+              // Code that defines the Pass goes here.
+        }
+    }
+}

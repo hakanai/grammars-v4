@@ -1,0 +1,15 @@
+Shader "Examples/SinglePass"
+{
+    SubShader
+    {
+        Pass
+        {                
+              Name "ExamplePassName"
+              Tags { "ExampleTagKey" = "ExampleTagValue" }
+
+              // ShaderLab commands go here.
+
+              // HLSL code goes here.
+        }
+    }
+}

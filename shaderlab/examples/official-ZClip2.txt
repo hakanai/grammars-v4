@@ -1,0 +1,16 @@
+Shader "Examples/CommandExample"
+{
+    SubShader
+    {
+         // Sets the GPU's depth clip mode to clamp for this SubShader
+         // You would typically do this if you are rendering stencil shadows
+         ZClip False
+
+         // The rest of the code that defines the SubShader goes here.        
+
+        Pass
+        {    
+              // The rest of the code that defines the Pass goes here.
+        }
+    }
+}

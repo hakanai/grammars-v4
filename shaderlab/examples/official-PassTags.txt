@@ -1,0 +1,12 @@
+Shader "Examples/ExampleLightMode"
+{
+    SubShader
+    {
+        Pass
+        {    
+              Tags { "LightMode" = "Always" }
+            
+              // The rest of the code that defines the Pass goes here.
+        }
+    }
+}

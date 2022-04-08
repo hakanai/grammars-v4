@@ -1,0 +1,37 @@
+Shader "Examples/ExampleShader"
+{
+    SubShader
+    {
+
+        HLSLINCLUDE
+            // HLSL code that you want to share goes here
+        ENDHLSL
+
+        Pass
+        {                
+              Name "ExampleFirstPassName"
+              Tags { "LightMode" = "ExampleLightModeTagValue" }
+
+              // ShaderLab commands to set the render state go here
+
+              HLSLPROGRAM
+                // This HLSL shader program automatically includes the contents of the HLSLINCLUDE block above
+                // HLSL shader code goes here
+              ENDHLSL
+        }
+
+        Pass
+        {                
+              Name "ExampleSecondPassName"
+              Tags { "LightMode" = "ExampleLightModeTagValue" }
+
+              // ShaderLab commands to set the render state go here
+
+              HLSLPROGRAM
+                // This HLSL shader program automatically includes the contents of the HLSLINCLUDE block above
+                // HLSL shader code goes here
+              ENDHLSL
+        }
+
+    }
+}

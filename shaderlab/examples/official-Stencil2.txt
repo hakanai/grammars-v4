@@ -1,0 +1,20 @@
+Shader "Examples/CommandExample"
+{
+    SubShader
+    {
+             // All pixels in this SubShader pass the stencil test only if the current value of the stencil buffer is less than 2
+             // You would typically do this if you wanted to only draw to areas of the render target that were not "masked out"
+             Stencil
+             {
+                 Ref 2
+                 Comp Less
+             }  
+
+         // The rest of the code that defines the SubShader goes here.        
+
+        Pass
+        {    
+              // The rest of the code that defines the Pass goes here.
+        }
+    }
+}
